@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   
-  // ⚠️ IMPORTANT : Remplacez par votre clé API OpenWeatherMap
+  
   const API_KEY = 'da73c29de3b26d8031f971654cabc474';
   
   const getWeatherIcon = (condition) => {
